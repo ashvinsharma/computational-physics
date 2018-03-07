@@ -2,9 +2,10 @@ clc;
 clear variables;
 clear all;
 
-x = [1, 2, 3, 4, 5];
-y = [1, 2, 3, 4, 5];
-xf = 10;
+% Equation used here is y = x^2 - 1
+x = [-1, 0, 1];
+y = [0, -1, 0];
+xf = 2;
 
 n = length(x);
 B = zeros(n);
